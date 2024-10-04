@@ -1,0 +1,5 @@
+xsens
+/home/clover/CURI-Bimanual-Teleoperation-XsensManus/devel/.private/xsens/cmake.lock /home/clover/CURI-Bimanual-Teleoperation-XsensManus/devel/./cmake.lock
+/home/clover/CURI-Bimanual-Teleoperation-XsensManus/devel/.private/xsens/lib/pkgconfig/xsens.pc /home/clover/CURI-Bimanual-Teleoperation-XsensManus/devel/lib/pkgconfig/xsens.pc
+/home/clover/CURI-Bimanual-Teleoperation-XsensManus/devel/.private/xsens/share/xsens/cmake/xsensConfig-version.cmake /home/clover/CURI-Bimanual-Teleoperation-XsensManus/devel/share/xsens/cmake/xsensConfig-version.cmake
+/home/clover/CURI-Bimanual-Teleoperation-XsensManus/devel/.private/xsens/share/xsens/cmake/xsensConfig.cmake /home/clover/CURI-Bimanual-Teleoperation-XsensManus/devel/share/xsens/cmake/xsensConfig.cmake

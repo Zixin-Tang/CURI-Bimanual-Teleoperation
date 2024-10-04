@@ -1,0 +1,5 @@
+eeteleop
+/home/clover/CURI-Bimanual-Teleoperation-XsensManus/devel/.private/eeteleop/cmake.lock /home/clover/CURI-Bimanual-Teleoperation-XsensManus/devel/./cmake.lock
+/home/clover/CURI-Bimanual-Teleoperation-XsensManus/devel/.private/eeteleop/lib/pkgconfig/eeteleop.pc /home/clover/CURI-Bimanual-Teleoperation-XsensManus/devel/lib/pkgconfig/eeteleop.pc
+/home/clover/CURI-Bimanual-Teleoperation-XsensManus/devel/.private/eeteleop/share/eeteleop/cmake/eeteleopConfig.cmake /home/clover/CURI-Bimanual-Teleoperation-XsensManus/devel/share/eeteleop/cmake/eeteleopConfig.cmake
+/home/clover/CURI-Bimanual-Teleoperation-XsensManus/devel/.private/eeteleop/share/eeteleop/cmake/eeteleopConfig-version.cmake /home/clover/CURI-Bimanual-Teleoperation-XsensManus/devel/share/eeteleop/cmake/eeteleopConfig-version.cmake

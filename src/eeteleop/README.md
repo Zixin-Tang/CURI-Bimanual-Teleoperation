@@ -1,0 +1,1 @@
+pip install spatialmath-python matplotlib

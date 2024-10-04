@@ -1,0 +1,22 @@
+<launch>
+    <arg name="ee_type" value="softhand" />
+
+    <!-- Default: related to torsoend frame, check with ros parameter "xsens_ref_frame"-->
+    <arg name="left_arm_pose_xsens_topic" default="/xsens/left_tcp"/>
+    <arg name="right_arm_pose_xsens_topic" default="/xsens/right_tcp"/>
+
+    <!-- related to arm base frame -->
+    <arg name="left_arm_control_topic" default="/panda_left/cartesian_command_tele"/>
+    <arg name="right_arm_control_topic" default="/panda_right/cartesian_command_tele"/>
+
+
+
+    <node pkg="armteleop" type="franka.py" name="teleop_franka" output="screen">
+        <param name="left_arm_pose_xsens_topic" value="$(arg left_arm_pose_xsens_topic)"/>
+        <param name="right_arm_pose_xsens_topic" value="$(arg right_arm_pose_xsens_topic)"/>
+        <param name="left_arm_control_topic" value="$(arg left_arm_control_topic)"/>
+        <param name="right_arm_control_topic" value="$(arg right_arm_control_topic)"/>
+    </node>
+
+</launch>
+

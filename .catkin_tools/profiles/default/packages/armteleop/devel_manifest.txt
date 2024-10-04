@@ -1,0 +1,5 @@
+armteleop
+/home/clover/CURI-Bimanual-Teleoperation-XsensManus/devel/.private/armteleop/cmake.lock /home/clover/CURI-Bimanual-Teleoperation-XsensManus/devel/./cmake.lock
+/home/clover/CURI-Bimanual-Teleoperation-XsensManus/devel/.private/armteleop/lib/pkgconfig/armteleop.pc /home/clover/CURI-Bimanual-Teleoperation-XsensManus/devel/lib/pkgconfig/armteleop.pc
+/home/clover/CURI-Bimanual-Teleoperation-XsensManus/devel/.private/armteleop/share/armteleop/cmake/armteleopConfig-version.cmake /home/clover/CURI-Bimanual-Teleoperation-XsensManus/devel/share/armteleop/cmake/armteleopConfig-version.cmake
+/home/clover/CURI-Bimanual-Teleoperation-XsensManus/devel/.private/armteleop/share/armteleop/cmake/armteleopConfig.cmake /home/clover/CURI-Bimanual-Teleoperation-XsensManus/devel/share/armteleop/cmake/armteleopConfig.cmake

@@ -1,0 +1,30 @@
+<launch>
+    <arg name="ee_type" value="softhand" />
+
+    <arg name="left_finger_poses_xsens_topic" default="/xsens/left_finger_poses"/>
+    <arg name="right_finger_poses_xsens_topic" default="/xsens/right_finger_poses"/>
+    <arg name="left_finger_joints_topic" default="/manus/left_finger_joints"/>
+    <arg name="right_finger_joints_topic" default="/manus/right_finger_joints"/>
+    <arg name="left_softhand_synergies_topic" default="/qbhand2m_chain/control/qbhand2m1_synergies_trajectory_controller/command"/>
+    <arg name="right_softhand_synergies_topic" default="/qbhand2m_chain/control/qbhand2m2_synergies_trajectory_controller/command"/>
+
+    
+    <param name="ee_type" value="$(arg ee_type)"/>
+    <group if="$(eval arg('ee_type') == 'softhand')">
+        <node pkg="eeteleop" type="softhand.py" name="teleop_$(arg ee_type)" output="screen">
+            <param name="left_finger_poses_xsens_topic" value="$(arg left_finger_poses_xsens_topic)"/>
+            <param name="right_finger_poses_xsens_topic" value="$(arg right_finger_poses_xsens_topic)"/>
+            <param name="left_finger_joints_topic" value="$(arg left_finger_joints_topic)"/>
+            <param name="right_finger_joints_topic" value="$(arg right_finger_joints_topic)"/>
+            <param name="left_softhand_synergies_topic" value="$(arg left_softhand_synergies_topic)"/>
+            <param name="right_softhand_synergies_topic" value="$(arg right_softhand_synergies_topic)"/>
+        </node>
+    </group>
+
+    <group if="$(eval arg('ee_type') != 'softhand')">
+        <node pkg="eeteleop" type="invoke_error.py" name="$(arg ee_type_error)" output="screen">
+        </node>
+    </group>
+
+</launch>
+
